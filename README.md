@@ -1,5 +1,5 @@
 # Hollow Knight for the PS Vita
-This repo contains patches that you can use in order to get fully working files for my port on TWEWY: Solo Remix, made for fuHEN.
+This repo contains patches that you can use in order to get fully working files for my port.
 
 # Instructions
 First, you might want to install the .VPK using VitaShell. Don't try to launch the game, because it will crash without the neccesary files.
