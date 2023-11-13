@@ -7,6 +7,7 @@ NOTICE: OVERCLOCK IS NESSESARY
 First, you might want to install the .VPK using VitaShell. Don't try to launch the game, because it will crash without the neccesary files.
 
 ## STEAM VERSION
+- Download Hollow Knight vpk from vitadb and install it.
 - Go to the Release page and download ``HollowKnightVitaSTEAM.zip``.
 - Extract it.
 - Put the game's folder inside the extracted folder(Should be Steam version)
