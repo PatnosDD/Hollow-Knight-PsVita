@@ -1,6 +1,8 @@
 # Hollow Knight for the PS Vita
 This repo contains patches that you can use in order to get fully working files for my port.
 
+**YOU NEED TO BUY THE GAME ON STEAM, OR GOG TO MAKE IT WORK!**
+
 NOTICE: OVERCLOCK IS NECESSARY
 
 # Instructions
