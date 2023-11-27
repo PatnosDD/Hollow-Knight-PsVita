@@ -3,7 +3,7 @@ This repo contains patches that you can use in order to get fully working files 
 
 **YOU NEED TO BUY THE GAME ON STEAM, OR GOG TO MAKE IT WORK!**
 
-NOTICE: OVERCLOCK IS NECESSARY
+NOTICE: OVERCLOCK IS NECESSARY, ONLY WINDOWS VERSION IS SUPPORTED
 
 # Instructions
 First, you might want to install the .VPK using VitaShell. Don't try to launch the game, because it will crash without the neccesary files.
