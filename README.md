@@ -78,10 +78,9 @@ This repository contains the necessary patches to create fully functional files 
 ### Troubleshooting
 - Ensure that your PS Vita is properly overclocked.  
 - Verify that you have the correct game version (Steam or GOG) and have followed the steps for your version.
-- If you encounter issues running `APPLYPATCH.bat`, right-click on the following files: `APPLYPATCH.bat`, `deterministic.exe`, `xdelta3` and `xdelta3-x.x.x-x86_64.exe` Select **Properties**, go to the **General** tab, and ensure the **Unblock** checkbox is either checked or not visible at all. Then **Apply**.
-- If `ux0:app` does not appear in File Explorer, click the location bar in File Explorer and manually enter the path (e.g., `PSVITA:\app\HKVT12222`)
+- If `ux0:app` does not appear in File Explorer, make sure you have visibility of hidden directories enabled.
 
 ---
 
 ### Disclaimer
-This patch requires a legally purchased copy of Hollow Knight. Redistribution of the patched files or game assets is strictly prohibited.
+This patch requires a legally purchased copy of Hollow Knight.
