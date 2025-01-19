@@ -2,9 +2,33 @@
 This repository contains the necessary patches to create fully functional files for running Hollow Knight on the PS Vita.
 
 **IMPORTANT:** You must own **Hollow Knight** on **Steam** or **GOG** to use this patch!  
-**NOTICE:** Overclocking is required, and only the **Windows** version of the game is supported.
 
 ---
+Porting this game to the PS Vita was a significant challenge, requiring compromises and adjustments to accommodate the console’s technical limitations.  
+While it’s not perfect and may never be, it’s in reasonably good shape to let you enjoy this amazing game.  
+
+### Compromises  
+
+- **Texture downsizing**: Most textures were reduced in size.  
+- **Frame rate**: Capped at 30 FPS but may drop in larger scenes with multiple enemies (until some are defeated).  
+- **Audio glitches**: Sounds may occasionally be glitchy.  
+- **Loading times**: Scenes take longer to load due to the Vita’s I/O speeds.  
+
+### Known Issues  
+
+- **Lower FPS in busy areas**: Performance drops in some scenes with many enemies (**the tutorial scene has the most noticeable lag**).  
+- **Longer load times for larger scenes**: Bigger areas may take extra time to load.  
+- **Periodic lag spikes**: Once every minute or so, you may encounter a lag spike caused by various factors.  
+
+## PS VITA Set up
+
+In order to have the best possible experience, I recommend you to use following plugins (that you should be able to find somewhere on the net) :
+- ioplus.skprx
+- iostaging.skprx
+- (ThreadOptimizer) => Optional, requires configuration, and can have negative impact if not correctly done
+
+**+ Full CPU Overclock (500Mhz)**
+
 
 ## Instructions
 
