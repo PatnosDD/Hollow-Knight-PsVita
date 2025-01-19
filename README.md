@@ -93,7 +93,9 @@ In order to have the best possible experience, I recommend you to use following 
 ```
    └── HKVT12222/
     ├── Media/
-    └── sce_module/
+    ├── sce_module/
+    ├── sce_sys/
+    └── eboot.bin
 ```
 7. When prompted, select **Replace the files in destination**.
 8. if you encounter any issues take a look at the [Troubleshooting](#troubleshooting) section
