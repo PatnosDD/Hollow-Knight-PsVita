@@ -58,7 +58,7 @@ In order to have the best possible experience, I recommend you to use following 
 ```
 4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 15–25 minutes depending on your system).
 5. Once completed, you will see a file named `HollowKnightVITA.zip`.
-6. Using **VitaShell**, connect your PS Vita to your PC and copy the extracted contents of `HollowKnightVITA.zip` (_around 390–450MB_) to `ux0:app/HKVT12222/`.
+6. Using **VitaShell**, connect your PS Vita to your PC and copy the extracted contents of `HollowKnightVITA.zip` (_zip file should be around 380–450MB_) to `ux0:app/HKVT12222/`.
    **Note:** Your `HKVT12222` folder on your Vita should look like this:
 ```
    └── HKVT12222/
@@ -90,7 +90,7 @@ In order to have the best possible experience, I recommend you to use following 
 ```
 4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 15–25 minutes depending on your system).
 5. Once completed, you will see a file named `HollowKnightVITA.zip`.
-6. Using **VitaShell**, connect your PS Vita to your PC and copy the extracted contents of `HollowKnightVITA.zip` (_around 300–400MB_) to `ux0:app/HKVT12222/`.
+6. Using **VitaShell**, connect your PS Vita to your PC and copy the extracted contents of `HollowKnightVITA.zip` (_zip file should be around 380–450MB_) to `ux0:app/HKVT12222/`.
    **Note:** Your `HKVT12222` folder on your Vita should look like this:
 ```
    └── HKVT12222/
