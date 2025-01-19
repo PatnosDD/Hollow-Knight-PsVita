@@ -7,6 +7,8 @@ This repository contains the necessary patches to create fully functional files 
 Porting this game to the PS Vita was a significant challenge, requiring compromises and adjustments to accommodate the console’s technical limitations.  
 While it’s not perfect and may never be, it’s in reasonably good shape to let you enjoy this amazing game.  
 
+Disclaimer for new players. The tutorial scene is the only scene with that kind of horrific performance, After that scene, experience is better.
+
 ### Compromises  
 
 - **Texture downsizing**: Most textures were reduced in size.  
