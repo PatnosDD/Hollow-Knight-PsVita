@@ -105,6 +105,21 @@ In order to have the best possible experience, I recommend you to use following 
 
 ---
 
+### Transferring Save Files
+If you are updating from an older version of the game, your save files need to be moved to a new directory. Follow these steps:
+
+1. **Locate Old Save Files**:  
+   Navigate to `ux0:data` and identify all files starting with `user...`.
+
+2. **Move Files**:  
+   Copy these files and transfer them to the new save directory:  
+   `ux0:data/HollowKnight`.
+
+3. **Verify**:  
+   Ensure all save files are properly placed in the `HollowKnight` folder.
+
+---
+
 ### Troubleshooting
 - Ensure that your PS Vita is properly overclocked.  
 - Verify that you have the correct game version (Steam or GOG) and have followed the steps for your version.
