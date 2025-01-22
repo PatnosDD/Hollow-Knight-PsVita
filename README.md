@@ -53,7 +53,6 @@ In order to have the best possible experience, I recommend you to use following 
     ├── vcdiff/
     ├── APPLYPATCH.bat
     ├── deterministic.exe
-    ├── xdelta3
     └── xdelta3-x.x.x-x86_64.exe
 ```
 4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 15–25 minutes depending on your system).
@@ -85,7 +84,6 @@ In order to have the best possible experience, I recommend you to use following 
     ├── vcdiff/
     ├── APPLYPATCH.bat
     ├── deterministic.exe
-    ├── xdelta3
     └── xdelta3-x.x.x-x86_64.exe
 ```
 4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 15–25 minutes depending on your system).
