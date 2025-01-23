@@ -22,6 +22,14 @@ Disclaimer for new players. The tutorial scene is the only scene with that kind 
 - **Longer load times for larger scenes**: Bigger areas may take extra time to load.  
 - **Periodic lag spikes**: Once every minute or so, you may encounter a lag spike caused by various factors.  
 
+**If you want to support the project, you can leave a tip on one of those websites:**
+
+Ko-Fi: https://ko-fi.com/patnosd
+
+Patreon: https://www.patreon.com/PatnosD
+
+PayPal: https://paypal.me/PatnosDD
+
 ## PS VITA Set up
 
 In order to have the best possible experience, I recommend you to use following plugins (that you should be able to find somewhere on the net) :
