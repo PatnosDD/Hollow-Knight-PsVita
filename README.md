@@ -30,6 +30,8 @@ Patreon: https://www.patreon.com/PatnosD
 
 PayPal: https://paypal.me/PatnosDD
 
+Afdian: https://afdian.com/a/PatnosD
+
 ## PS VITA Set up
 
 In order to have the best possible experience, I recommend you to use following plugins (that you should be able to find somewhere on the net) :
