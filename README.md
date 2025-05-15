@@ -35,10 +35,8 @@ Afdian: https://afdian.com/a/PatnosD
 ## PS VITA Set up
 
 In order to have the best possible experience, I recommend you to use following plugins (that you should be able to find somewhere on the net) :
-- ioplus.skprx
-- iostaging.skprx
-- (ThreadOptimizer) => Optional, requires configuration, and can have negative impact if not correctly done
-
+- ioplus.skprx (Required)
+- iostaging.skprx (Optional)
 **+ Full CPU Overclock (500Mhz)**
 
 
