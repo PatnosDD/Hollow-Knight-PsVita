@@ -37,6 +37,7 @@ Afdian: https://afdian.com/a/PatnosD
 In order to have the best possible experience, I recommend you to use following plugins (that you should be able to find somewhere on the net) :
 - ioplus.skprx (Required)
 - iostaging.skprx (Optional)
+
 **+ Full CPU Overclock (500Mhz)**
 
 
