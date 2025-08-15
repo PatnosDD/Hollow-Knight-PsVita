@@ -28,7 +28,7 @@ Ko-Fi: https://ko-fi.com/patnosd
 
 Patreon: https://www.patreon.com/PatnosD
 
-PayPal: https://paypal.me/PatnosDD
+PayPal: https://paypal.me/DPatnosD
 
 Afdian: https://afdian.com/a/PatnosD
 
@@ -137,3 +137,4 @@ If you are updating from an older version of the game, your save files need to b
 
 ### Disclaimer
 This patch requires a legally purchased copy of Hollow Knight.
+
