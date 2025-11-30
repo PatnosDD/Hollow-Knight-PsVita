@@ -3,6 +3,16 @@ This repository contains the necessary patches to create fully functional files 
 
 **IMPORTANT:** You must own **Hollow Knight** on **Steam** or **GOG** to use this patch!  
 
+---- 
+**DOWNLOAD OLDER MANIFEST AS GAME WAS UPDATED RECENTLY**
+
+Open Steam Console(Ctrl+R and type "steam://nav/console")
+
+Enter this and wait for the download to finish:
+
+```download_depot 367520 367521 3820178394837330515```
+----
+
 ---
 Porting this game to the PS Vita was a significant challenge, requiring compromises and adjustments to accommodate the console’s technical limitations.  
 While it’s not perfect and may never be, it’s in reasonably good shape to let you enjoy this amazing game.  
@@ -137,4 +147,5 @@ If you are updating from an older version of the game, your save files need to b
 
 ### Disclaimer
 This patch requires a legally purchased copy of Hollow Knight.
+
 
