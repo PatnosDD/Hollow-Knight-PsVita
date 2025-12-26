@@ -1,3 +1,17 @@
+<div align="center">
+
+---
+
+### 🌯 **Wishlist my first commercial game on Steam!**
+**[Beso's Shawarma](https://store.steampowered.com/app/4186870/Besos_Shawarma/?beta=0)** — *A short, narrative-driven horror game.*
+
+[![Steam Wishlist](https://img.shields.io/badge/Wishlist%20on-Steam-black?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/4186870/Besos_Shawarma/?beta=0)
+
+---
+
+</div>
+
+
 # Hollow Knight for the PS Vita
 This repository contains the necessary patches to create fully functional files for running Hollow Knight on the PS Vita.
 
@@ -147,5 +161,6 @@ If you are updating from an older version of the game, your save files need to b
 
 ### Disclaimer
 This patch requires a legally purchased copy of Hollow Knight.
+
 
 
