@@ -2,7 +2,7 @@
 
 ---
 
-### 🌯 **Wishlist my first commercial game on Steam!**
+### 🌯 **Purchase my first commercial game on Steam!**
 **[Beso's Shawarma](https://store.steampowered.com/app/4186870/Besos_Shawarma/?beta=0)** — *A short, narrative-driven horror game.*
 
 [![Steam Wishlist](https://img.shields.io/badge/Wishlist%20on-Steam-black?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/4186870/Besos_Shawarma/?beta=0)
@@ -11,60 +11,37 @@
 
 </div>
 
-
 # Hollow Knight for the PS Vita
 This repository contains the necessary patches to create fully functional files for running Hollow Knight on the PS Vita.
 
 **IMPORTANT:** You must own **Hollow Knight** on **Steam** or **GOG** to use this patch!  
 
----- 
-**DOWNLOAD OLDER MANIFEST AS GAME WAS UPDATED RECENTLY**
-
-Open Steam Console(Ctrl+R and type "steam://nav/console")
-
-Enter this and wait for the download to finish:
-
-```download_depot 367520 367521 3820178394837330515```
-----
-
 ---
 Porting this game to the PS Vita was a significant challenge, requiring compromises and adjustments to accommodate the console’s technical limitations.  
 While it’s not perfect and may never be, it’s in reasonably good shape to let you enjoy this amazing game.  
 
-Disclaimer for new players. The tutorial scene is the only scene with that kind of horrific performance, After that scene, experience is better.
-
 ### Compromises  
-
 - **Texture downsizing**: Most textures were reduced in size.  
 - **Frame rate**: Capped at 30 FPS but may drop in larger scenes with multiple enemies (until some are defeated).  
 - **Audio glitches**: Sounds may occasionally be glitchy.  
 - **Loading times**: Scenes take longer to load due to the Vita’s I/O speeds.  
 
 ### Known Issues  
+- Audio can stutter for a moment when going into or coming out of a loading screen.
+- Brief hitches the first time some effects or enemies appear in a session.
+- Memory use grows over very long sessions, so an occasional restart will bring the loading times down.
 
-- **Lower FPS in busy areas**: Performance drops in some scenes with many enemies (**the tutorial scene has the most noticeable lag**).  
-- **Longer load times for larger scenes**: Bigger areas may take extra time to load.  
-- **Periodic lag spikes**: Once every minute or so, you may encounter a lag spike caused by various factors.  
+**If you want to support the project, you can leave a tip on one of these websites:**
 
-**If you want to support the project, you can leave a tip on one of those websites:**
-
-Ko-Fi: https://ko-fi.com/patnosd
-
-Patreon: https://www.patreon.com/PatnosD
-
-PayPal: https://paypal.me/DPatnosD
-
-Afdian: https://afdian.com/a/PatnosD
+[Ko-Fi](https://ko-fi.com/patnosd) | [Patreon](https://www.patreon.com/PatnosD) | [PayPal](https://paypal.me/DPatnosD) | [Afdian](https://afdian.com/a/PatnosD)
 
 ## PS VITA Set up
 
-In order to have the best possible experience, I recommend you to use following plugins (that you should be able to find somewhere on the net) :
-- ioplus.skprx (Required)
-- iostaging.skprx (Optional)
-- NoTrpDrm.suprx (Optional | Used for Trophies)
+In order to have the best possible experience, I recommend using the following plugins (which you can find online):
+- `ioplus.skprx` (Required)
+- `NoTrpDrm.suprx` (Optional | Used for Trophies)
 
 **+ Full CPU Overclock (500Mhz)**
-
 
 ## Instructions
 
@@ -76,91 +53,56 @@ In order to have the best possible experience, I recommend you to use following 
 
 ---
 
-### STEAM VERSION
-1. Visit the **Releases** page of this repository and download `HollowKnightVitaSTEAM.zip`.
+### Patching Process (Steam & GOG)
+
+1. Visit the **Releases** page of this repository and download the patch zip for your version of the game (`HollowKnightVitaSTEAM.zip` or `HollowKnightVitaGOG.zip`).
 2. Extract the downloaded zip to a folder on your PC.
-3. Copy the Steam game folder into the extracted folder.  
-   **Note:** Your `HollowKnightVitaPatchSteam` folder should look like this:
-```
-   └── HollowKnightVitaPatchSteam/
-    ├── Hollow Knight/  <- ../steamapps/common/Hollow Knight
+3. Copy your game data into the newly extracted patch folder:
+   - **For Steam:** Copy the `Hollow Knight` folder (located in `.../steamapps/common/`).
+   - **For GOG:** Copy the `Hollow Knight_Data` folder (located in your GOG installation path).
+
+   *Your folder structure should look like this:*
+   ```text
+   └── HollowKnightVitaPatch/
+    ├── Hollow Knight/          <- (Steam)
+    │   -- OR --
+    ├── Hollow Knight_Data/     <- (GOG)
     ├── vcdiff/
     ├── APPLYPATCH.bat
     ├── deterministic.exe
     └── xdelta3-x.x.x-x86_64.exe
+
 ```
-4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 15–25 minutes depending on your system).
-5. Once completed, you will see a file named `HollowKnightVITA.zip`.
-6. Using **VitaShell**, connect your PS Vita to your PC and copy the extracted contents of `HollowKnightVITA.zip` (_zip file should be around 380–450MB_) to `ux0:app/HKVT12222/`.
-   **Note:** Your `HKVT12222` folder on your Vita should look like this:
+
+4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 10-25 minutes depending on your system).
+5. Once completed, you will see a new file named `HollowKnightVITA.zip`.
+6. Using **VitaShell**, connect your PS Vita to your PC and extract the contents of `HollowKnightVITA.zip` *(around 770MB)* to `ux0:app/HKVT12222/`.
+*Your `HKVT12222` folder on your Vita should look like this:*
+```text
+└── ux0:app/HKVT12222/
+ ├── Media/
+ ├── sce_module/
+ ├── sce_sys/
+ ├── archive.psarc
+ └── eboot.bin
+
 ```
-   └── HKVT12222/
-    ├── Media/
-    ├── sce_module/
-    ├── sce_sys/
-    └── eboot.bin
-```
+
+
 7. When prompted, select **Replace the files in destination**.
-8. if you encounter any issues take a look at the [Troubleshooting](#troubleshooting) section
+8. If you encounter any issues, take a look at the [Troubleshooting](https://www.google.com/search?q=%23troubleshooting) section below.
 9. Launch the game and enjoy!
-
----
-
-### GOG VERSION
-1. Visit the **Releases** page of this repository and download `HollowKnightVitaGOG.zip`.
-2. Extract the downloaded zip to a folder on your PC.
-3. Copy the GOG game folder into the extracted folder.  
-
-   **Note:** Your `HollowKnightVitaPatchGOG` folder should look like this:
-```
-   └── HollowKnightVitaPatchSteam/
-    ├── Hollow Knight_Data/  <- ../GOG/Hollow Knight/Hollow Knight_Data
-    ├── vcdiff/
-    ├── APPLYPATCH.bat
-    ├── deterministic.exe
-    └── xdelta3-x.x.x-x86_64.exe
-```
-4. Run `APPLYPATCH.bat` and wait for the process to complete (this can take 15–25 minutes depending on your system).
-5. Once completed, you will see a file named `HollowKnightVITA.zip`.
-6. Using **VitaShell**, connect your PS Vita to your PC and copy the extracted contents of `HollowKnightVITA.zip` (_zip file should be around 380–450MB_) to `ux0:app/HKVT12222/`.
-   **Note:** Your `HKVT12222` folder on your Vita should look like this:
-```
-   └── HKVT12222/
-    ├── Media/
-    ├── sce_module/
-    ├── sce_sys/
-    └── eboot.bin
-```
-7. When prompted, select **Replace the files in destination**.
-8. if you encounter any issues take a look at the [Troubleshooting](#troubleshooting) section
-9. Launch the game and enjoy!
-
----
-
-### Transferring Save Files
-If you are updating from an older version of the game, your save files need to be moved to a new directory. Follow these steps:
-
-1. **Locate Old Save Files**:  
-   Navigate to `ux0:data` and identify all files starting with `user...`.
-
-2. **Move Files**:  
-   Copy these files and transfer them to the new save directory:  
-   `ux0:data/HollowKnight`.
-
-3. **Verify**:  
-   Ensure all save files are properly placed in the `HollowKnight` folder.
 
 ---
 
 ### Troubleshooting
-- Ensure that your PS Vita is properly overclocked.  
-- Verify that you have the correct game version (Steam or GOG) and have followed the steps for your version.
-- If `ux0:app` does not appear in File Explorer, make sure you have visibility of hidden directories enabled.
+
+* Ensure that your PS Vita is properly overclocked if you run into a poor framerate.
+* Verify that you have the correct game version (Steam or GOG) and downloaded the matching patch.
+* If `ux0:app` does not appear in File Explorer, make sure you have visibility of hidden directories enabled in Windows.
 
 ---
 
 ### Disclaimer
+
 This patch requires a legally purchased copy of Hollow Knight.
-
-
-
